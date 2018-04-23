@@ -117,7 +117,7 @@ cout << "The files on the server are: " << endl;
 int sock = serverSocket;
 bool isDone = false;
   while(!isDone){
-  //cout << "in the while" << endl; 
+  cout << "in the while" << endl; 
         int bufSize = 12;
         char resp[bufSize];
         ssize_t bytesRcved = recv(sock, resp, bufSize, 0);

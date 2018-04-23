@@ -106,7 +106,7 @@ void handle_Prompt(int clntSocket){
     else if(prompt == 4)
     {
       cout << "leave" << endl;
-      //close(clntSocket);
+      close(clntSocket);
     } 
   }
 
